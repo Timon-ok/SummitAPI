@@ -1,0 +1,215 @@
+{
+    "mountains": [
+      {
+        "id": 1,
+        "name": "Mount Everest",
+        "height": 8848,
+        "location": "Nepal/Tibet",
+        "image": "https://example.com/everest.jpg"
+      },
+      {
+        "id": 2,
+        "name": "K2",
+        "height": 8611,
+        "location": "Pakistan/China",
+        "image": "https://example.com/k2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Kangchenjunga",
+        "height": 8586,
+        "location": "Nepal/Indien",
+        "image": "https://example.com/kangchenjunga.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Lhotse",
+        "height": 8516,
+        "location": "Nepal/Tibet",
+        "image": "https://example.com/lhotse.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Makalu",
+        "height": 8485,
+        "location": "Nepal/Tibet",
+        "image": "https://example.com/makalu.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Cho Oyu",
+        "height": 8188,
+        "location": "Nepal/Tibet",
+        "image": "https://example.com/cho_oyu.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Dhaulagiri",
+        "height": 8167,
+        "location": "Nepal",
+        "image": "https://example.com/dhaulagiri.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Manaslu",
+        "height": 8163,
+        "location": "Nepal",
+        "image": "https://example.com/manaslu.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Nanga Parbat",
+        "height": 8126,
+        "location": "Pakistan",
+        "image": "https://example.com/nanga_parbat.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Annapurna",
+        "height": 8091,
+        "location": "Nepal",
+        "image": "https://example.com/annapurna.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Gasherbrum I",
+        "height": 8080,
+        "location": "Pakistan/China",
+        "image": "https://example.com/gasherbrum1.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Broad Peak",
+        "height": 8051,
+        "location": "Pakistan/China",
+        "image": "https://example.com/broad_peak.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Gasherbrum II",
+        "height": 8035,
+        "location": "Pakistan/China",
+        "image": "https://example.com/gasherbrum2.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Shishapangma",
+        "height": 8027,
+        "location": "Tibet",
+        "image": "https://example.com/shishapangma.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Matterhorn",
+        "height": 4478,
+        "location": "Schweiz/Italien",
+        "image": "https://example.com/matterhorn.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Mont Blanc",
+        "height": 4807,
+        "location": "Frankreich/Italien",
+        "image": "https://example.com/montblanc.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Denali",
+        "height": 6190,
+        "location": "USA (Alaska)",
+        "image": "https://example.com/denali.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Aconcagua",
+        "height": 6961,
+        "location": "Argentinien",
+        "image": "https://example.com/aconcagua.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Elbrus",
+        "height": 5642,
+        "location": "Russland",
+        "image": "https://example.com/elbrus.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Kilimandscharo",
+        "height": 5895,
+        "location": "Tansania",
+        "image": "https://example.com/kilimanjaro.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Pico de Orizaba",
+        "height": 5636,
+        "location": "Mexiko",
+        "image": "https://example.com/pico_de_orizaba.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Mount Vinson",
+        "height": 4892,
+        "location": "Antarktis",
+        "image": "https://example.com/mount_vinson.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Mount Kosciuszko",
+        "height": 2228,
+        "location": "Australien",
+        "image": "https://example.com/mount_kosciuszko.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Puncak Jaya",
+        "height": 4884,
+        "location": "Indonesien",
+        "image": "https://example.com/puncak_jaya.jpg"
+      },
+      {
+        "id": 25,
+        "name": "Mount Whitney",
+        "height": 4421,
+        "location": "USA (Kalifornien)",
+        "image": "https://example.com/mount_whitney.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Mount Rainier",
+        "height": 4392,
+        "location": "USA (Washington)",
+        "image": "https://example.com/mount_rainier.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Mount Shasta",
+        "height": 4322,
+        "location": "USA (Kalifornien)",
+        "image": "https://example.com/mount_shasta.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Mount Logan",
+        "height": 5959,
+        "location": "Kanada",
+        "image": "https://example.com/mount_logan.jpg"
+      },
+      {
+        "id": 29,
+        "name": "Mount St. Helens",
+        "height": 2549,
+        "location": "USA (Washington)",
+        "image": "https://example.com/mount_st_helens.jpg"
+      },
+      {
+        "id": 30,
+        "name": "Mount Fuji",
+        "height": 3776,
+        "location": "Japan",
+        "image": "https://example.com/mount_fuji.jpg"
+      }
+    ]
+  }
+  
