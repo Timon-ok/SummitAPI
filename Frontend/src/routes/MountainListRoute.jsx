@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router'
 import { fetchAllMountains } from '../lib/api'
 import styles from './MountainListRoute.module.css'
 
@@ -30,15 +31,21 @@ export default function MountainListRoute() {
             <h2>Mountains List</h2>
             <div className={styles.mountainsGrid}>
                 {mountains.map(mountain => (
-                    <div key={mountain.id} className={styles.mountainRectangle}>
-                        <div className={styles.mountainContent}>
-                            <h3>{mountain.name}</h3>
-                            <div className={styles.mountainInfo}>
-                                <span className={styles.height}>{mountain.height}m</span>
-                                <span className={styles.location}>{mountain.location}</span>
+                    <Link 
+                        key={mountain.id} 
+                        to={`/mountains/${mountain.id}`}
+                        className={styles.mountainLink}
+                    >
+                        <div className={styles.mountainRectangle}>
+                            <div className={styles.mountainContent}>
+                                <h3>{mountain.name}</h3>
+                                <div className={styles.mountainInfo}>
+                                    <span className={styles.height}>{mountain.height}m</span>
+                                    <span className={styles.location}>{mountain.location}</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </main>

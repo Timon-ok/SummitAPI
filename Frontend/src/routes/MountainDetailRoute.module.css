@@ -1,0 +1,133 @@
+.detailContainer {
+  width: 100%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.detailContainer h2 {
+  color: black;
+}
+
+.backButton {
+  padding: 0.7rem 1.4rem;
+  margin-bottom: 1rem;
+  background: #f0f0f0;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.backButton:hover {
+  transform: translateY(-2px);
+}
+
+.backButton:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.backButton:active {
+  transform: translateY(0);
+}
+
+.mountainDetail {
+  background: linear-gradient(to right, #e0e0e0, #f5f5f5);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mountainInfo {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.height,
+.location {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.height {
+  color: #2c5282;
+  background: rgba(44, 82, 130, 0.1);
+}
+
+.location {
+  color: #38a169;
+  background: rgba(56, 161, 105, 0.1);
+}
+
+.description {
+  margin-top: 2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.editButton, .saveButton {
+  padding: 0.7rem 1.4rem;
+  margin-bottom: 1rem;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.saveButton {
+  background: #2196F3;
+}
+
+.editButton:hover {
+  transform: translateY(-2px);
+  background: #45a049;
+}
+
+.saveButton:hover {
+  transform: translateY(-2px);
+  background: #1976D2;
+}
+
+.editInput {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: black;
+  background: linear-gradient(to right, #e0e0e0, #f5f5f5);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.editTextarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: vertical;
+  color: black;
+  background: linear-gradient(to right, #e0e0e0, #f5f5f5);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.mountainInfo input {
+  width: 150px;
+  margin-right: 1rem;
+}

@@ -1,6 +1,6 @@
 .mountainsContainer {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,10 +13,10 @@
     flex-direction: column;
     gap: 1.5rem;
     align-items: center;
-    width: 80%;
-    max-width: 1000px;
+    width: 60%;  
+    min-width: 600px;  
+    max-width: 900px;  
     margin: 2rem auto;
-    padding: 0 2rem;
 }
 
 .mountainRectangle {
@@ -27,6 +27,7 @@
     border-radius: 8px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
+    padding: 0 2rem;
 }
 
 .mountainRectangle:hover {
@@ -37,11 +38,11 @@
 
 .mountainContent {
     height: 100%;
-    padding: 0 3rem;
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: minmax(250px, 2fr) 1fr;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    padding: 0 2rem; 
 }
 
 .mountainContent h3 {
@@ -53,27 +54,33 @@
 
 .mountainInfo {
     display: grid;
-    grid-template-columns: 120px 180px;
+    grid-template-columns: auto auto;
     gap: 1rem;
     justify-content: end;
+}
+
+.height, .location {
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .height {
     color: #2c5282;
     background: rgba(44, 82, 130, 0.1);
-    padding: 0.25rem 0.75rem;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    text-align: center;
-    width: 100px;
+    min-width: 80px;
 }
 
 .location {
     color: #38a169;
     background: rgba(56, 161, 105, 0.1);
-    padding: 0.25rem 0.75rem;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    text-align: center;
-    width: 160px;
+    min-width: 120px;
+}
+
+.mountainLink {
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
 }

@@ -39,21 +39,20 @@ export async function createPost(post) {
     return data
 }
 
-export async function updatePost(post) {
-    const response = await fetch(`${URL}/posts/${post.id}`, {
+export async function updateMountain(mountain) {
+    const response = await fetch(`${URL}/mountains/${mountain.id}`, {
         method: "PUT",
         headers: {
             "content-type": "application/json"
         },
-        body: JSON.stringify(post)
+        body: JSON.stringify(mountain)
     })
 
     if (!response.ok) {
-        throw new Error("An error occured while fetching")
+        throw new Error("Failed to update mountain")
     }
 
-    const data = await response.json()
-    return data
+    return await response.json()
 }
 
 export async function deletePostById(id) {
