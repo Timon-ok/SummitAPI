@@ -1,215 +1,244 @@
 {
-    "mountains": [
-      {
-        "id": 1,
-        "name": "Mount Everest",
-        "height": 8848,
-        "location": "Nepal/Tibet",
-        "image": "https://example.com/everest.jpg"
-      },
-      {
-        "id": 2,
-        "name": "K2",
-        "height": 8611,
-        "location": "Pakistan/China",
-        "image": "https://example.com/k2.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Kangchenjunga",
-        "height": 8586,
-        "location": "Nepal/Indien",
-        "image": "https://example.com/kangchenjunga.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Lhotse",
-        "height": 8516,
-        "location": "Nepal/Tibet",
-        "image": "https://example.com/lhotse.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Makalu",
-        "height": 8485,
-        "location": "Nepal/Tibet",
-        "image": "https://example.com/makalu.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Cho Oyu",
-        "height": 8188,
-        "location": "Nepal/Tibet",
-        "image": "https://example.com/cho_oyu.jpg"
-      },
-      {
-        "id": 7,
-        "name": "Dhaulagiri",
-        "height": 8167,
-        "location": "Nepal",
-        "image": "https://example.com/dhaulagiri.jpg"
-      },
-      {
-        "id": 8,
-        "name": "Manaslu",
-        "height": 8163,
-        "location": "Nepal",
-        "image": "https://example.com/manaslu.jpg"
-      },
-      {
-        "id": 9,
-        "name": "Nanga Parbat",
-        "height": 8126,
-        "location": "Pakistan",
-        "image": "https://example.com/nanga_parbat.jpg"
-      },
-      {
-        "id": 10,
-        "name": "Annapurna",
-        "height": 8091,
-        "location": "Nepal",
-        "image": "https://example.com/annapurna.jpg"
-      },
-      {
-        "id": 11,
-        "name": "Gasherbrum I",
-        "height": 8080,
-        "location": "Pakistan/China",
-        "image": "https://example.com/gasherbrum1.jpg"
-      },
-      {
-        "id": 12,
-        "name": "Broad Peak",
-        "height": 8051,
-        "location": "Pakistan/China",
-        "image": "https://example.com/broad_peak.jpg"
-      },
-      {
-        "id": 13,
-        "name": "Gasherbrum II",
-        "height": 8035,
-        "location": "Pakistan/China",
-        "image": "https://example.com/gasherbrum2.jpg"
-      },
-      {
-        "id": 14,
-        "name": "Shishapangma",
-        "height": 8027,
-        "location": "Tibet",
-        "image": "https://example.com/shishapangma.jpg"
-      },
-      {
-        "id": 15,
-        "name": "Matterhorn",
-        "height": 4478,
-        "location": "Schweiz/Italien",
-        "image": "https://example.com/matterhorn.jpg"
-      },
-      {
-        "id": 16,
-        "name": "Mont Blanc",
-        "height": 4807,
-        "location": "Frankreich/Italien",
-        "image": "https://example.com/montblanc.jpg"
-      },
-      {
-        "id": 17,
-        "name": "Denali",
-        "height": 6190,
-        "location": "USA (Alaska)",
-        "image": "https://example.com/denali.jpg"
-      },
-      {
-        "id": 18,
-        "name": "Aconcagua",
-        "height": 6961,
-        "location": "Argentinien",
-        "image": "https://example.com/aconcagua.jpg"
-      },
-      {
-        "id": 19,
-        "name": "Elbrus",
-        "height": 5642,
-        "location": "Russland",
-        "image": "https://example.com/elbrus.jpg"
-      },
-      {
-        "id": 20,
-        "name": "Kilimandscharo",
-        "height": 5895,
-        "location": "Tansania",
-        "image": "https://example.com/kilimanjaro.jpg"
-      },
-      {
-        "id": 21,
-        "name": "Pico de Orizaba",
-        "height": 5636,
-        "location": "Mexiko",
-        "image": "https://example.com/pico_de_orizaba.jpg"
-      },
-      {
-        "id": 22,
-        "name": "Mount Vinson",
-        "height": 4892,
-        "location": "Antarktis",
-        "image": "https://example.com/mount_vinson.jpg"
-      },
-      {
-        "id": 23,
-        "name": "Mount Kosciuszko",
-        "height": 2228,
-        "location": "Australien",
-        "image": "https://example.com/mount_kosciuszko.jpg"
-      },
-      {
-        "id": 24,
-        "name": "Puncak Jaya",
-        "height": 4884,
-        "location": "Indonesien",
-        "image": "https://example.com/puncak_jaya.jpg"
-      },
-      {
-        "id": 25,
-        "name": "Mount Whitney",
-        "height": 4421,
-        "location": "USA (Kalifornien)",
-        "image": "https://example.com/mount_whitney.jpg"
-      },
-      {
-        "id": 26,
-        "name": "Mount Rainier",
-        "height": 4392,
-        "location": "USA (Washington)",
-        "image": "https://example.com/mount_rainier.jpg"
-      },
-      {
-        "id": 27,
-        "name": "Mount Shasta",
-        "height": 4322,
-        "location": "USA (Kalifornien)",
-        "image": "https://example.com/mount_shasta.jpg"
-      },
-      {
-        "id": 28,
-        "name": "Mount Logan",
-        "height": 5959,
-        "location": "Kanada",
-        "image": "https://example.com/mount_logan.jpg"
-      },
-      {
-        "id": 29,
-        "name": "Mount St. Helens",
-        "height": 2549,
-        "location": "USA (Washington)",
-        "image": "https://example.com/mount_st_helens.jpg"
-      },
-      {
-        "id": 30,
-        "name": "Mount Fuji",
-        "height": 3776,
-        "location": "Japan",
-        "image": "https://example.com/mount_fuji.jpg"
-      }
-    ]
-  }
-  
+  "mountains": [
+    {
+      "id": 1,
+      "name": "Mount Everest",
+      "height": 8848,
+      "location": "Nepal/Tibet",
+      "image": "https://example.com/everest.jpg",
+      "description": "Mount Everest is the tallest mountain in the world, standing at 8,848 meters above sea level. It is part of the Himalayas and is located on the border between Nepal and Tibet. The mountain attracts thousands of climbers every year, but the journey to the summit is perilous due to extreme weather conditions and high altitudes."
+    },
+    {
+      "id": 2,
+      "name": "K2",
+      "height": 8611,
+      "location": "Pakistan/China",
+      "image": "https://example.com/k2.jpg",
+      "description": "K2, also known as Mount Godwin-Austen, is the second-highest mountain in the world. It is considered one of the most challenging peaks to climb due to its steep slopes and unpredictable weather. Located in the Karakoram range, K2 has a high fatality rate among climbers attempting to reach the summit."
+    },
+    {
+      "id": 3,
+      "name": "Kangchenjunga",
+      "height": 8586,
+      "location": "Nepal/Indien",
+      "image": "https://example.com/kangchenjunga.jpg",
+      "description": "Kangchenjunga is the third-highest mountain in the world and is revered by local communities. It is part of the Himalayas and is known for its five majestic peaks, each covered in snow. Due to its remote location and difficult terrain, fewer climbers attempt to scale Kangchenjunga compared to Everest and K2."
+    },
+    {
+      "id": 4,
+      "name": "Lhotse",
+      "height": 8516,
+      "location": "Nepal/Tibet",
+      "image": "https://example.com/lhotse.jpg",
+      "description": "Lhotse is the fourth-highest mountain in the world and is connected to Mount Everest. It is known for its extremely steep South Face, which presents a major challenge to climbers. Despite being overshadowed by Everest, Lhotse remains a formidable peak that requires technical climbing skills to conquer."
+    },
+    {
+      "id": 5,
+      "name": "Makalu",
+      "height": 8485,
+      "location": "Nepal/Tibet",
+      "image": "https://example.com/makalu.jpg",
+      "description": "Makalu is the fifth-highest mountain in the world and is known for its distinctive pyramid shape. It is one of the most difficult mountains to climb due to its steep ridges and isolated location. The peak is part of the Mahalangur Himalayas and offers breathtaking views of the surrounding ranges."
+    },
+    {
+      "id": 6,
+      "name": "Cho Oyu",
+      "height": 8188,
+      "location": "Nepal/Tibet",
+      "image": "https://example.com/cho_oyu.jpg",
+      "description": "Cho Oyu, meaning 'Turquoise Goddess' in Tibetan, is the sixth-highest mountain in the world. It is considered one of the easiest 8,000-meter peaks to climb due to its relatively moderate slopes. Many climbers use Cho Oyu as a training ground before attempting Everest."
+    },
+    {
+      "id": 7,
+      "name": "Dhaulagiri",
+      "height": 8167,
+      "location": "Nepal",
+      "image": "https://example.com/dhaulagiri.jpg",
+      "description": "Dhaulagiri is the seventh-highest mountain and is known for its massive structure. The name means 'White Mountain' in Sanskrit, reflecting its snow-covered peaks. The first successful ascent was made in 1960, and it remains one of the most challenging peaks due to avalanches and harsh conditions."
+    },
+    {
+      "id": 8,
+      "name": "Manaslu",
+      "height": 8163,
+      "location": "Nepal",
+      "image": "https://example.com/manaslu.jpg",
+      "description": "Manaslu, also called the 'Mountain of the Spirit', is the eighth-highest peak in the world. It is located in the Mansiri Himal range of Nepal and is known for its remote and rugged terrain. The mountain was first climbed in 1956, and it has since become a popular destination for experienced mountaineers."
+    },
+    {
+      "id": 9,
+      "name": "Nanga Parbat",
+      "height": 8126,
+      "location": "Pakistan",
+      "image": "https://example.com/nanga_parbat.jpg",
+      "description": "Nanga Parbat, known as 'Killer Mountain', is the ninth-highest peak in the world. It is infamous for its high fatality rate among climbers due to treacherous weather and technical difficulties. The peak features a dramatic rise of over 4,600 meters from its base, making it one of the most visually stunning mountains in the world."
+    },
+    {
+      "id": 10,
+      "name": "Annapurna",
+      "height": 8091,
+      "location": "Nepal",
+      "image": "https://example.com/annapurna.jpg",
+      "description": "Annapurna is known for its dangerous climbing routes, making it one of the deadliest mountains in the world. It was the first 8,000-meter peak to be climbed, with the first ascent in 1950. The Annapurna region is also famous for its trekking trails, which attract thousands of hikers each year."
+    },
+    {
+      "id": 11,
+      "name": "Gasherbrum I",
+      "height": 8080,
+      "location": "Pakistan/China",
+      "image": "https://example.com/gasherbrum1.jpg",
+      "description": "Gasherbrum I, also known as 'Hidden Peak', is the 11th highest mountain in the world. It is part of the Karakoram range and is known for its challenging, steep terrain. Climbers must navigate treacherous glaciers and unpredictable weather conditions to reach its summit."
+    },
+    {
+      "id": 12,
+      "name": "Broad Peak",
+      "height": 8051,
+      "location": "Pakistan/China",
+      "image": "https://example.com/broad_peak.jpg",
+      "description": "Broad Peak is the 12th highest mountain in the world, located near K2 in the Karakoram range. It gets its name from its long, broad summit ridge that stretches over 1.5 kilometers. Despite being slightly easier to climb than K2, it still poses a significant challenge to mountaineers."
+    },
+    {
+      "id": 13,
+      "name": "Gasherbrum II",
+      "height": 8035,
+      "location": "Pakistan/China",
+      "image": "https://example.com/gasherbrum2.jpg",
+      "description": "Gasherbrum II is the 13th highest peak in the world and is part of the Karakoram range. It is often considered the easiest of the 8,000-meter peaks in this range. Despite its relatively moderate slopes, climbers still face extreme cold and strong winds on their ascent."
+    },
+    {
+      "id": 14,
+      "name": "Shishapangma",
+      "height": 8027,
+      "location": "Tibet",
+      "image": "https://example.com/shishapangma.jpg",
+      "description": "Shishapangma is the 14th highest mountain in the world and the only 8,000-meter peak located entirely in Tibet. Due to its location within China, it was one of the last 8,000-meter peaks to be climbed. It is considered one of the more accessible high peaks, though avalanches pose a serious risk."
+    },
+    {
+      "id": 15,
+      "name": "Matterhorn",
+      "height": 4478,
+      "location": "Schweiz/Italien",
+      "image": "https://example.com/matterhorn.jpg",
+      "description": "The Matterhorn is one of the most iconic mountains in the world, known for its near-symmetrical pyramid shape. It straddles the border between Switzerland and Italy and is a popular destination for climbers. The first ascent in 1865 marked a historic achievement in mountaineering, though the descent was tragic."
+    },
+    {
+      "id": 16,
+      "name": "Mont Blanc",
+      "height": 4807,
+      "location": "Frankreich/Italien",
+      "image": "https://example.com/montblanc.jpg",
+      "description": "Mont Blanc is the highest mountain in Western Europe and a popular destination for climbers and skiers. It has a long history of mountaineering, with the first ascent recorded in 1786. The mountain offers breathtaking views of the surrounding Alps and is often covered in thick snow."
+    },
+    {
+      "id": 17,
+      "name": "Denali",
+      "height": 6190,
+      "location": "USA (Alaska)",
+      "image": "https://example.com/denali.jpg",
+      "description": "Denali, formerly known as Mount McKinley, is the highest peak in North America. It is known for its harsh weather conditions and extreme cold due to its northern latitude. The mountain presents a formidable challenge even to experienced climbers."
+    },
+    {
+      "id": 18,
+      "name": "Aconcagua",
+      "height": 6961,
+      "location": "Argentinien",
+      "image": "https://example.com/aconcagua.jpg",
+      "description": "Aconcagua is the tallest mountain in South America and the highest outside of Asia. Located in the Andes mountain range, it is a popular destination for high-altitude trekkers. The climb is non-technical, but the altitude makes it a physically demanding challenge."
+    },
+    {
+      "id": 19,
+      "name": "Elbrus",
+      "height": 5642,
+      "location": "Russland",
+      "image": "https://example.com/elbrus.jpg",
+      "description": "Mount Elbrus is the highest peak in Europe and part of the Caucasus Mountains in Russia. It is a dormant volcano with two distinct summits. The mountain is often climbed as part of the Seven Summits challenge."
+    },
+    {
+      "id": 20,
+      "name": "Kilimandscharo",
+      "height": 5895,
+      "location": "Tansania",
+      "image": "https://example.com/kilimanjaro.jpg",
+      "description": "Mount Kilimanjaro is the highest mountain in Africa and one of the most famous trekking destinations in the world. Unlike many other high peaks, it does not require technical climbing skills to reach the summit. The mountain features diverse climates, from rainforest to arctic conditions at the top."
+    },
+    {
+      "id": 21,
+      "name": "Pico de Orizaba",
+      "height": 5636,
+      "location": "Mexiko",
+      "image": "https://example.com/pico_de_orizaba.jpg",
+      "description": "Pico de Orizaba, also known as Citlaltépetl, is the highest mountain in Mexico and the third highest in North America. It is a dormant stratovolcano with a distinctive snow-capped peak. The mountain is a popular destination for climbers due to its accessibility and breathtaking views."
+    },
+    {
+      "id": 22,
+      "name": "Mount Vinson",
+      "height": 4892,
+      "location": "Antarktis",
+      "image": "https://example.com/mount_vinson.jpg",
+      "description": "Mount Vinson is the tallest mountain in Antarctica, standing in one of the coldest and most remote places on Earth. First climbed in 1966, it presents extreme challenges due to frigid temperatures and harsh conditions. Despite its isolation, it attracts mountaineers aiming to complete the Seven Summits challenge."
+    },
+    {
+      "id": 23,
+      "name": "Mount Kosciuszko",
+      "height": 2228,
+      "location": "Australien",
+      "image": "https://example.com/mount_kosciuszko.jpg",
+      "description": "Mount Kosciuszko is the highest mountain in mainland Australia and one of the easiest summits to reach among the Seven Summits. It is a popular hiking destination, with well-marked trails leading to its peak. The mountain is an important site for Indigenous Australians and has cultural significance."
+    },
+    {
+      "id": 24,
+      "name": "Puncak Jaya",
+      "height": 4884,
+      "location": "Indonesien",
+      "image": "https://example.com/puncak_jaya.jpg",
+      "description": "Puncak Jaya, also known as Carstensz Pyramid, is the highest peak in Oceania. It is the only glaciated peak in the region and features steep rock faces. The climb is technically demanding, making it one of the most challenging of the Seven Summits."
+    },
+    {
+      "id": 25,
+      "name": "Mount Whitney",
+      "height": 4421,
+      "location": "USA (Kalifornien)",
+      "image": "https://example.com/mount_whitney.jpg",
+      "description": "Mount Whitney is the tallest mountain in the contiguous United States. Located in California's Sierra Nevada, it is a popular hiking destination with a well-traveled trail leading to its summit. The mountain offers stunning panoramic views of the surrounding wilderness."
+    },
+    {
+      "id": 26,
+      "name": "Mount Rainier",
+      "height": 4392,
+      "location": "USA (Washington)",
+      "image": "https://example.com/mount_rainier.jpg",
+      "description": "Mount Rainier is a massive stratovolcano in Washington state and one of the most dangerous volcanoes in North America. It is known for its extensive glaciers and unpredictable weather. The mountain is a training ground for climbers preparing for high-altitude expeditions."
+    },
+    {
+      "id": 27,
+      "name": "Mount Shasta",
+      "height": 4322,
+      "location": "USA (Kalifornien)",
+      "image": "https://example.com/mount_shasta.jpg",
+      "description": "Mount Shasta is a prominent stratovolcano in northern California, known for its spiritual significance and stunning scenery. It is a popular destination for climbers and hikers, offering multiple routes to its summit. The mountain is often shrouded in clouds, adding to its mystical appeal."
+    },
+    {
+      "id": 28,
+      "name": "Mount Logan",
+      "height": 5959,
+      "location": "Kanada",
+      "image": "https://example.com/mount_logan.jpg",
+      "description": "Mount Logan is the highest peak in Canada and the second-highest in North America. It is located in the remote Yukon Territory and features the largest base circumference of any non-volcanic mountain on Earth. Due to its extreme cold, climbing Mount Logan is a serious expedition requiring careful preparation."
+    },
+    {
+      "id": 29,
+      "name": "Mount St. Helens",
+      "height": 2549,
+      "location": "USA (Washington)",
+      "image": "https://example.com/mount_st_helens.jpg",
+      "description": "Mount St. Helens is famous for its catastrophic eruption in 1980, which dramatically reshaped its landscape. It remains an active volcano with frequent seismic activity. Today, it is a popular site for scientific research and hiking, offering a look at nature’s power and resilience."
+    },
+    {
+      "id": 30,
+      "name": "Mount Fuji",
+      "height": 3776,
+      "location": "Japan",
+      "image": "https://example.com/mount_fuji.jpg",
+      "description": "Mount Fuji is Japan's highest and most iconic mountain. It is a stratovolcano known for its symmetrical cone shape and cultural significance in Japanese art and spirituality. Every year, thousands of climbers ascend its slopes to witness breathtaking sunrise views from the summit."
+    }
+  ]
+}
